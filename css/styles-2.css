@@ -1,0 +1,78 @@
+body {
+  color: #333;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  width: 100vw;
+}
+
+header {
+  background-color:rgb(2, 99, 10);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 100vw;
+}
+.profiel {
+  /* background-color: lightpink; */
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex; */
+  align-items: center;
+  width: 100%;
+}
+
+.profiel > h1 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.arrow {
+  vertical-align: -5px;
+}
+
+.profiel p {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(236, 199, 76);
+  cursor: pointer;
+}
+
+.profiel p:hover {
+  color: rgb(236, 153, 76);
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.1em;
+}
+
+.resume {
+  margin:36px;
+}
+
+.container {
+  display: flex;
+}
+
+.year {
+  /* background: red; */
+  white-space: nowrap
+}
+
+.company {
+  margin-left: 16px;
+}
+
+.skill {
+  background: rgb(198, 200, 202);
+  padding: .1px;
+  text-align: center;
+  margin-top: 32px;
+}
